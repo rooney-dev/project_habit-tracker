@@ -1,21 +1,21 @@
-import React, { Component } from 'react';
-import './app.css';
-import '@fortawesome/fontawesome-free/js/all.js';
-import Habits from './components/habits';
-import Navbar from './components/navbar';
+import React, { Component } from "react";
+import "./App.css";
+import "@fortawesome/fontawesome-free/js/all.js";
+import Habits from "./components/habits";
+import Navbar from "./components/navbar";
 
 class App extends Component {
   state = {
     habits: [
       {
         id: 1,
-        name: 'Reading',
+        name: "Reading",
         count: 0,
       },
-      { id: 2, name: 'Running', count: 0 },
+      { id: 2, name: "Running", count: 0 },
       {
         id: 3,
-        name: 'Coding',
+        name: "Coding",
         count: 0,
       },
     ],
